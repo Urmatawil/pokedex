@@ -1,0 +1,99 @@
+* {
+	box-sizing: border-box;
+	color: #232323;
+}
+
+:root {
+	--fire: #fc9b40;
+    --grass: #6dfa76;
+    --electric: #ddfc32;
+    --water: #82ccee;
+    --ground: #af8154;
+    --rock: #a8a875;
+    --fairy: #f2d2f8;
+    --poison: #e70e9f;
+    --bug: #dbcebc;
+    --dragon: #97B3E6;
+    --psychic: #EAEDA1;
+    --flying: #b8cbd6;
+    --fighting: #fa6f4c;
+    --normal: #eedfdf;
+	--ice: #b8dfff;
+	--ghost: #9b1467;
+	--steel: #9389b6;
+}
+
+body {
+	font-family: "Press Start 2P", cursive;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin: 0;
+	background-color: #DC0A2D;
+}
+
+h1 {
+	letter-spacing: 10px;
+}
+
+.container {
+	display:flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin: 0 auto;
+	max-width: 1200px;
+}
+
+.pokemon {
+	display:grid;
+	place-items: center;
+	border-radius: 10px;
+	box-shadow: 0 4px 15px rgba(100, 100, 100, 0.5),
+				0 0 0 3px #232323;
+	margin:10px;
+	padding: 10px;
+	width: 240px;
+	text-align: center;
+}
+
+.pokemon .img-container {
+	
+	background-color: rgba(255, 255, 255, 0.6);
+	box-shadow: 0 0 0 2px #232323;
+	border-radius: 50%;
+	width: 120px;
+	height: 120px;
+	overflow: hidden;
+	margin-bottom: 20px;
+}
+
+.pokemon .img-container img {
+	max-width: 90%;
+	margin-top: 10px;
+}
+
+.pokemon .info .number {
+	background-color: #28AAFD;
+	box-shadow: 0 0 0 2px #232323;
+	padding: 5px 10px;
+	border-radius: 10px;
+	font-size: 0.6em;
+}
+
+.pokemon .info h3 {
+	margin: 15px 0 7px;
+	letter-spacing: 1px;
+}
+
+.pokemon .info small {
+	font-size: 0.7em;
+}
+
+.pokemon .info {
+	background-color: #DFDFDF;
+	box-shadow: 0 0 0 2px #232323;
+	border-radius: 6px;
+	width: 100%;
+	padding: 10px;
+}
