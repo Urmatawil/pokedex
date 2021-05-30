@@ -50,10 +50,10 @@ h1 {
 	place-items: center;
 	border-radius: 10px;
 	box-shadow: 0 4px 15px rgba(100, 100, 100, 0.5),
-				0 0 0 3px #232323;
+				0 0 0 8px #DFDFDF;
 	margin:10px;
-	padding: 10px;
-	width: 240px;
+	padding: 8px;
+	width: 220px;
 	text-align: center;
 }
 
@@ -83,17 +83,18 @@ h1 {
 
 .pokemon .info h3 {
 	margin: 15px 0 7px;
+	font-size: 0.8em;
 	letter-spacing: 1px;
 }
 
 .pokemon .info small {
-	font-size: 0.7em;
+	font-size: 0.6em;
 }
 
 .pokemon .info {
 	background-color: #DFDFDF;
 	box-shadow: 0 0 0 2px #232323;
 	border-radius: 6px;
-	width: 100%;
+	width: 190px;
 	padding: 10px;
 }
