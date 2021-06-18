@@ -5,19 +5,19 @@
 
 :root {
 	--fire: #fc9b40;
-    --grass: #6dfa76;
-    --electric: #ddfc32;
-    --water: #82ccee;
-    --ground: #af8154;
-    --rock: #a8a875;
-    --fairy: #f2d2f8;
-    --poison: #e70e9f;
-    --bug: #dbcebc;
-    --dragon: #97B3E6;
-    --psychic: #EAEDA1;
-    --flying: #b8cbd6;
-    --fighting: #fa6f4c;
-    --normal: #eedfdf;
+	--grass: #6dfa76;
+	--electric: #ddfc32;
+	--water: #82ccee;
+	--ground: #af8154;
+	--rock: #a8a875;
+	--fairy: #f2d2f8;
+	--poison: #e70e9f;
+	--bug: #dbcebc;
+	--dragon: #97b3e6;
+	--psychic: #eaeda1;
+	--flying: #b8cbd6;
+	--fighting: #fa6f4c;
+	--normal: #eedfdf;
 	--ice: #b8dfff;
 	--ghost: #9b1467;
 	--steel: #9389b6;
@@ -30,7 +30,7 @@ body {
 	align-items: center;
 	justify-content: center;
 	margin: 0;
-	background-color: #DC0A2D;
+	background-color: #dc0a2d;
 }
 
 h1 {
@@ -38,7 +38,7 @@ h1 {
 }
 
 .container {
-	display:flex;
+	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
 	margin: 0 auto;
@@ -46,19 +46,17 @@ h1 {
 }
 
 .pokemon {
-	display:grid;
+	display: grid;
 	place-items: center;
 	border-radius: 10px;
-	box-shadow: 0 4px 15px rgba(100, 100, 100, 0.5),
-				0 0 0 8px #DFDFDF;
-	margin:10px;
+	box-shadow: 0 4px 15px rgba(100, 100, 100, 0.5), 0 0 0 8px #dfdfdf;
+	margin: 10px;
 	padding: 8px;
 	width: 220px;
 	text-align: center;
 }
 
 .pokemon .img-container {
-	
 	background-color: rgba(255, 255, 255, 0.6);
 	box-shadow: 0 0 0 2px #232323;
 	border-radius: 50%;
@@ -74,7 +72,7 @@ h1 {
 }
 
 .pokemon .info .number {
-	background-color: #28AAFD;
+	background-color: #28aafd;
 	box-shadow: 0 0 0 2px #232323;
 	padding: 5px 10px;
 	border-radius: 10px;
@@ -92,9 +90,22 @@ h1 {
 }
 
 .pokemon .info {
-	background-color: #DFDFDF;
+	background-color: #dfdfdf;
 	box-shadow: 0 0 0 2px #232323;
 	border-radius: 6px;
 	width: 190px;
 	padding: 10px;
+}
+
+.pokemon .cardinfo {
+	background-color: #dfdfdf;
+	opacity: 0.2;
+	display: grid;
+	place-items: center;
+	border-radius: 6px;
+}
+
+.pokemon .cardinfo .cardtext {
+	position: absolute;
+	font-size: 12px;
 }
